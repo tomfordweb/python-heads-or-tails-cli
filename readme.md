@@ -6,12 +6,17 @@ Provide the amount of dice rolls, and the amount of sides.
 
 
 ```
-➜  roll-the-dice:(master) ✗ python3 main.py
-How many rolls: 5
-How many sides: 15
-Rolling a D5 15 time(s)
-Roll 1: 13
+➜  python-heads-or-tails-cli git:(master) ✗ python3 main.py
+How many rolls: 10
+How many sides: 20
+Rolling a D20 10 time(s)
+Roll 1: 19
 Roll 2: 14
-Roll 3: 8
-Roll 4: 14
+Roll 3: 11
+Roll 4: 7
+Roll 5: 2
+Roll 6: 3
+Roll 7: 16
+Roll 8: 4
+Roll 9: 16
 ```
