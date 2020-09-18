@@ -1,6 +1,9 @@
-def main():
-    print('hello world')
+import click
+
+@click.command()
+def headsOrTails():
+    click.echo('hello world')
 
 
 if __name__ == '__main__':
-    main()
+    headsOrTails()
