@@ -5,7 +5,7 @@ import random
 @click.option('--count', prompt='How many rolls')
 @click.option('--sides', prompt='How many sides')
 def command(count, sides):
-    click.echo('Rolling a D%s %s time(s)' % (count, sides))
+    click.echo('Rolling a D%s %s time(s)' % (sides, count))
     sides = int(sides)
     for i in range(1, int(count)):
         rollDice(i, sides)
